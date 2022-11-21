@@ -17,3 +17,11 @@
 .nav-list{
     list-style: none;
 }
+
+@media (min-width: 576px){
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
