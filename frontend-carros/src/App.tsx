@@ -1,10 +1,10 @@
 import './assets/Style/custon.scss';
 import './App.css';
-import Navbar from './components/Navbar';
+import Home from './pages/home';
 
 function App() {
   return (
-    <Navbar />
+    <Home />
   );
 }
 

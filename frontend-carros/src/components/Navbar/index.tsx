@@ -5,11 +5,12 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-warning main-nav">
-        <div className="container-fluid">
-          <a href="link">
-            <h1>Revenda DevSuper</h1>
-          </a>
-
+        <div className="container-fluid logo">
+         <div>
+            <a href="link">
+              <h1>Revenda DevSuper</h1>
+            </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,7 +24,7 @@ function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbar-hamburg">
-            <ul>
+            <ul className="nav-list">
               <li>
                 <a href="link">Home</a>
               </li>

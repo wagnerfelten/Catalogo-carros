@@ -2,3 +2,11 @@
     background-color: #F78B00;
     font-family: 'Roboto', sans-serif;
 }
+
+.logo a{
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style: none;
+}
