@@ -8,7 +8,7 @@ function Navbar() {
         <div className="container-fluid logo">
          <div>
             <a href="link">
-              <h1>Revenda DevSuper</h1>
+              <h1>Catálogo Car</h1>
             </a>
           </div>
           <button

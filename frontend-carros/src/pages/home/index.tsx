@@ -1,5 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Car from "../../img/car-header.png";
+import "./style.css"
+
 
 const Home = () => {
   return (
@@ -15,7 +17,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <Car />
+          <img src={Car} alt="" />
         </div>
       </div>
     </>
