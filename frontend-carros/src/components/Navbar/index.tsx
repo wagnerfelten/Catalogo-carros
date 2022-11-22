@@ -6,11 +6,12 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-warning main-nav">
         <div className="container-fluid logo">
-         <div>
+          <div className="logo-h1">        
             <a href="link">
               <h1>Catálogo Car</h1>
             </a>
-          </div>
+          </div>         
+          
           <button
             className="navbar-toggler"
             type="button"
