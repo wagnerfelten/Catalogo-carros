@@ -1,13 +1,14 @@
 import "./assets/Style/custon.scss";
 import "./App.css";
-import Home from "./pages/home";
+
+import Catalogo from "./pages/Catalog";
 
 
 function App() {
   return (
     <>
 
-      <Home />
+      <Catalogo />
     </>
   );
 }

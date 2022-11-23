@@ -134,3 +134,24 @@
    }
 
 }
+
+@media(min-width: 1200px){
+  .main-container{
+    width: 979px;
+    height: 365px;
+
+    display: flex;
+    flex-direction: row;
+ }
+
+ .main-container h1{
+  font-size: 36px;
+ }
+
+ .main-img img{
+  width: 333px;
+  height: 199px;
+  margin-left: 60px;
+
+}
+}
