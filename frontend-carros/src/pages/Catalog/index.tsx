@@ -1,5 +1,6 @@
 import Card from "../../components/Card/card";
 import Navbar from "../../components/Navbar";
+import './style.css';
 
 
 function Catalogo() {
@@ -8,8 +9,8 @@ function Catalogo() {
         <Navbar />
 
         <div>
-            <div>
-                <input type="text" name="" id="" />
+            <div className="search">
+                <input type="text" name="" id="" placeholder="Digite sua busca" />
                 <a href="link">Buscar</a>
             </div>
 

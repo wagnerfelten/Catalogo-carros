@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    width: 300px;
+    height: 86px;
+}
+
+.search input{
+    width: 199px;
+    height: 40px;
+    background-color: #fff;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.search input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    
+}
+
+.search a{
+    color: #fff;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 0 10px 10px 0px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #00285F;
+    width: 77px;
+    height: 40px;
+}
