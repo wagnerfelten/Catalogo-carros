@@ -54,7 +54,7 @@
 
 @media(min-width: 992px){
     .logo h1{
-        font-size: 24px;
+        font-size: 20px;
 
     }
     .nav-list{
@@ -77,5 +77,13 @@
         display: flex;
         flex-direction: row;
         margin-left: 680px;   
+    }
+}
+
+@media(min-width: 1400px){
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        margin-left: 1300px;   
     }
 }
