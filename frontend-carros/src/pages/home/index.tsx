@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div className="main-footer">
-          <a href="">Ver Catálogo</a>
+          <a href="/catalogo">Ver Catálogo</a>
           <p>Comece agora a navegar</p>
         </div>
       </div>

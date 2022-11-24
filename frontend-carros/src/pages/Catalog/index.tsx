@@ -1,6 +1,6 @@
 import Card from "../../components/Card/card";
 import Navbar from "../../components/Navbar";
-import carRed from "../../img/car-card.png";
+
 import "./style.css";
 
 function Catalogo() {
@@ -11,7 +11,7 @@ function Catalogo() {
       <div>
         <div className="search">
           <input type="text" name="" id="" placeholder="Digite sua busca" />
-          <a href="link">Buscar</a>
+          <a href="/Catalogo">Buscar</a>
         </div>
 
         <div className="container my-4">

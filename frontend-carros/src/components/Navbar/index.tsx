@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-md navbar-dark bg-warning main-nav">
         <div className="container-fluid logo">
           <div className="logo-h1">        
-            <a href="link">
+            <a href="/">
               <h1>Catálogo Car</h1>
             </a>
           </div>         
@@ -27,10 +27,10 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbar-hamburg">
             <ul className="nav-list">
               <li>
-                <a href="link">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="link">Catalógo</a>
+                <a href="/Catalogo">Catalógo</a>
               </li>
             </ul>
           </div>
